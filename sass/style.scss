@@ -1,12 +1,12 @@
 // Base
 @use 'base/typography';
 
+// Mixins
+@use 'mixins/media_queries';
+@use 'mixins/cover_background';
+
 // Components
 @use 'components/card';
 
 // Pages
 @use 'pages/homepage';
-
-// Mixins
-@use 'mixins/media_queries';
-@use 'mixins/cover_background';
